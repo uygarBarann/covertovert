@@ -3,7 +3,7 @@
   "send": {
     "parameters": {
       "dest_port": 53,
-      "bits_per_packet": 4,
+      "bits_per_packet": 2,
       "min_TTL" : 1, 
       "max_TTL" : 255,
       "log_file_name": "Example_DNS_sender.log"
@@ -12,7 +12,7 @@
   "receive": {
     "parameters": {
       "dest_port": 53,
-      "bits_per_packet": 4,
+      "bits_per_packet": 2,
       "log_file_name": "Example_DNS_receiver.log"
     }
   }
